@@ -10,6 +10,7 @@ class App extends Component {
     }
   }
   onClick = (e) => {
+    e.preventDefault();
     this.setState({
       text: e.target.value,
     })
