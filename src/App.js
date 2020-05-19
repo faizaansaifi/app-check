@@ -31,9 +31,7 @@ class App extends Component {
             >
               Learn React
             </a>
-            <form>
               Enter : <input type='text' placeholder='Type something' onClick={this.onClick}/>
-            </form>
             <p>Your text: {this.state.text}</p>
           </header>
         </div>
